@@ -58,13 +58,11 @@ header {
     padding: 16px;
     background-color: var(--branco);
     outline: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 15px;
 
-    margin-top: 20px;
-
     justify-content: center;
-    height: 600px;
+    height: 400px;
     width: 90%;
     max-width: 1200px;
 }
@@ -74,7 +72,7 @@ header {
     padding: 16px;
     background-color: var(--branco);
     outline: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 15px;
 
     margin-top: 20px;
@@ -157,7 +155,35 @@ button:active {
     align-items: center;
 }
 
+.aviso__textos button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin-top: 1rem;
+    font-weight: bold;
+
+
+    height: 100%;
+    width: 100%;
+    max-width: 700px;
+
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: orange;
+    color: var(--branco);
+}
+
+.aviso__textos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
 
 .aviso img {
     width: 90%;
@@ -223,13 +249,43 @@ button:active {
     color: var(--branco);
 }
 
+.midiassociais__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+
+
+.midia__social {
+    background: var(--branco);
+    width: 37%;
+    height: 70px;
+    border-radius: 17px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0rem 1rem;
+
+    padding: 10px;
+}
+
+.midia__social img {
+    width: 50px;
+
+    
+}
+
 @media screen and (min-width: 768px) {
 
     .logo__container {
         justify-content: flex-start;
         padding: 0 2rem;
     }
-
 
     .aviso__container {
         display: grid;
@@ -239,6 +295,35 @@ button:active {
 
     .aviso__textos {
         align-items: left;
+    }
+
+    #result {
+        font-size: 1.25rem;
+    }
+
+    #inputQuestion {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo img {
+        height: 50px;
+    }
+
+    .aviso img {
+        max-width: 250px;
+        }
+
+    .aviso h2 {
+        font-size: 2rem;
+    }
+
+    .aviso p {
+        font-size: 1rem;
+
     }
 
 }
