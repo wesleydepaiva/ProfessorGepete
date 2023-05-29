@@ -309,7 +309,6 @@
     align-items: center;
     padding: 0.5rem;
     width: 30%;
-    padding-left: 2rem;
 }
 
 .pesquise__item p {
@@ -480,7 +479,54 @@ footer p {
 }
 
 
+@media screen and (max-width: 768px) {
+    .textos h1 {
+        font-size: 2.1rem;
+    }
 
+    .estudar__textos h2{
+        font-size: 2.1rem;
+    
+    }
+
+    .pesquise h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #adm {
+        font-size: 1.8rem;
+    }
+
+    .estudar__textos h2 {
+        text-align: center;
+    }
+
+    .estudar h3 {
+        text-align: center;
+    }
+
+    .instrucao__item h2 {
+        font-size: 1.6rem;
+    }
+
+    .instrucao__item p {
+        font-size: 1rem;
+    }
+
+    .aviso__home__container h1 {
+        font-size: 2rem;
+    }
+
+    .aviso__home__container p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    footer p {
+        font-size: 1.3rem;
+    }
+}
 
 
 
